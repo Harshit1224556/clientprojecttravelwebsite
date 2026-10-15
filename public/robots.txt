@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Disallow admin or duplicate pages
+Disallow: /admin/
+Disallow: /*.json$
+
+# Sitemap
+Sitemap: https://www.citycab.in/sitemap.xml
