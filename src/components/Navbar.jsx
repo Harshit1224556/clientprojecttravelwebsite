@@ -38,6 +38,7 @@ export default function Navbar() {
       <div className="container navbar__inner">
         {/* Logo */}
         <Link to="/" className="navbar__logo" aria-label="City Cab Home">
+          <span className="navbar__logo-prefix">City Cab By</span>
           <img src="/city-cab-logo.png" alt="City Cab" className="navbar__logo-img" />
         </Link>
 
