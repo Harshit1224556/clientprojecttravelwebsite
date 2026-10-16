@@ -38,8 +38,7 @@ export default function Navbar() {
       <div className="container navbar__inner">
         {/* Logo */}
         <Link to="/" className="navbar__logo" aria-label="City Cab Home">
-          <span className="logo-icon">🚗</span>
-          <span className="logo-text">City <em>Cab</em></span>
+          <img src="/city-cab-logo.png" alt="City Cab" className="navbar__logo-img" />
         </Link>
 
         {/* Desktop Nav */}
@@ -67,8 +66,8 @@ export default function Navbar() {
               {link.label}
             </NavLink>
           ))}
-          <a href="tel:+919090913111" className="btn btn-primary navbar__cta" aria-label="Call us">
-            📞 +91 90909 13111
+          <a href="tel:+918926272226" className="btn btn-primary navbar__cta" aria-label="Call us">
+            📞 +91 89262 72226
           </a>
         </nav>
 
@@ -92,7 +91,7 @@ export default function Navbar() {
           ) : (
             <NavLink key={link.path} to={link.path} className="navbar__mobile-link">{link.label}</NavLink>
           ))}
-          <a href="tel:+919090913111" className="btn btn-primary" style={{ margin: '16px 20px' }}>
+          <a href="tel:+918926272226" className="btn btn-primary" style={{ margin: '16px 20px' }}>
             📞 Call Now
           </a>
         </nav>

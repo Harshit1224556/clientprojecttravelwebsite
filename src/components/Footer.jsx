@@ -11,7 +11,9 @@ export default function Footer() {
           <div className="footer__grid">
             {/* Brand */}
             <div className="footer__col footer__brand">
-              <Link to="/" className="footer__logo">🚗 City <em>Cab</em></Link>
+              <Link to="/" className="footer__logo">
+                <img src="/city-cab-logo.png" alt="City Cab" className="footer__logo-img" />
+              </Link>
               <p>Premium Taxi, Tempo Traveller, Urbania &amp; Bus Hire in Bhubaneswar &amp; Puri. Clean AC vehicles, 24/7 service across Odisha.</p>
               <div className="footer__social">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
