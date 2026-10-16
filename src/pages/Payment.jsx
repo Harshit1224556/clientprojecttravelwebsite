@@ -87,14 +87,14 @@ export default function Payment() {
                 </div>
               ))}
             </div>
-            <p style={{ color: 'var(--gray)', fontSize: '0.82rem', marginTop: 14 }}>* After transfer, please share the UTR number via WhatsApp +91 9090913111 for confirmation.</p>
+            <p style={{ color: 'var(--gray)', fontSize: '0.82rem', marginTop: 14 }}>* After transfer, please share the UTR number via WhatsApp +91 89262 72226 for confirmation.</p>
           </div>
 
           <div style={{ textAlign: 'center', marginTop: 40 }}>
             <p style={{ color: 'var(--gray)', marginBottom: 20 }}>Questions about payment? We're happy to help!</p>
             <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap' }}>
-              <a href="tel:+919090913111" className="btn btn-navy">📞 Call Us</a>
-              <a href="https://wa.me/919090913111" className="btn btn-primary" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+              <a href="tel:+91 89262 72226" className="btn btn-navy">📞 Call Us</a>
+              <a href="https://wa.me/918926272226" className="btn btn-primary" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
             </div>
           </div>
         </div>

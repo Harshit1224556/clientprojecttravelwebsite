@@ -18,7 +18,7 @@ export default function Footer() {
               <div className="footer__social">
                 <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
                 <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">in</a>
-                <a href="https://wa.me/919090913111" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">W</a>
+                <a href="https://wa.me/918926272226" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">W</a>
               </div>
             </div>
 
@@ -57,7 +57,7 @@ export default function Footer() {
                 </li>
                 <li>
                   <Phone size={16} />
-                  <a href="tel:+919090913111">+91 90909 13111</a>
+                  <a href="tel:+91 89262 72226">+91 89262 72226</a>
                 </li>
                 <li>
                   <Mail size={16} />
@@ -68,7 +68,7 @@ export default function Footer() {
                   <span>24/7 — All Days</span>
                 </li>
               </ul>
-              <a href="tel:+919090913111" className="btn btn-primary mt-16" style={{width:'100%',justifyContent:'center'}}>
+              <a href="tel:+91 89262 72226" className="btn btn-primary mt-16" style={{width:'100%',justifyContent:'center'}}>
                 📞 Book Now
               </a>
             </div>

@@ -5,7 +5,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "City Cab – Tempo Traveller Bhubaneswar",
-  "telephone": "+91-9090913111",
+  "telephone": "+91-8926272226",
   "address": { "@type": "PostalAddress", "addressLocality": "Bhubaneswar", "addressRegion": "Odisha", "addressCountry": "IN" },
   "url": "https://www.citycab.in/tempo-traveller-bhubaneswar"
 };
@@ -28,7 +28,7 @@ export default function TempoTraveller() {
     <>
       <SEO
         title="Tempo Traveller Bhubaneswar | 12 14 16 Seater Hire | City Cab"
-        description="Rent 12, 14 & 16 seater AC Tempo Traveller in Bhubaneswar for group tours, pilgrimages, weddings. Best rates. Call +91 9090913111"
+        description="Rent 12, 14 & 16 seater AC Tempo Traveller in Bhubaneswar for group tours, pilgrimages, weddings. Best rates. Call +91 89262 72226"
         canonical="https://www.citycab.in/tempo-traveller-bhubaneswar"
         schema={schema}
       />
@@ -47,8 +47,8 @@ export default function TempoTraveller() {
             12, 14 & 16 seater AC Tempo Travellers for group tours, pilgrimages, family outings and corporate trips across Odisha.
           </p>
           <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
-            <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '14px 30px' }}>📞 Book Now</a>
-            <a href="https://wa.me/919090913111" className="btn btn-outline" target="_blank" rel="noopener noreferrer" style={{ padding: '14px 30px' }}>💬 WhatsApp</a>
+            <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '14px 30px' }}>📞 Book Now</a>
+            <a href="https://wa.me/918926272226" className="btn btn-outline" target="_blank" rel="noopener noreferrer" style={{ padding: '14px 30px' }}>💬 WhatsApp</a>
           </div>
         </div>
       </section>
@@ -74,7 +74,7 @@ export default function TempoTraveller() {
                       <div style={{ fontFamily: 'var(--font-heading)', fontSize: '1.4rem', fontWeight: 700, color: 'var(--navy)' }}>{v.price}</div>
                       <div style={{ fontSize: '0.75rem', color: 'var(--gray)' }}>Min: {v.min}</div>
                     </div>
-                    <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem' }}>Book</a>
+                    <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem' }}>Book</a>
                   </div>
                 </div>
               </article>
@@ -126,7 +126,7 @@ export default function TempoTraveller() {
         <div className="container">
           <h2 style={{ color: '#fff', marginBottom: 14 }}>Book Your Tempo Traveller Now</h2>
           <p style={{ color: 'rgba(255,255,255,0.65)', marginBottom: 28 }}>Group Discounts Available · 24/7 Service · All Odisha Routes</p>
-          <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '14px 36px', fontSize: '1.05rem' }}>📞 +91 90909 13111</a>
+          <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '14px 36px', fontSize: '1.05rem' }}>📞 +91 89262 72226</a>
         </div>
       </section>
     </>

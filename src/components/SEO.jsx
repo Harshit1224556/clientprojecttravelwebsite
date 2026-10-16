@@ -11,7 +11,7 @@ import { Helmet } from 'react-helmet-async';
  */
 export default function SEO({
   title = 'City Cab | Taxi, Tempo Traveller, Bus Hire – Bhubaneswar & Puri',
-  description = 'Book Taxi/Cab, Tempo Traveller, Urbania, Bus Hire & Odisha Tour Packages from Bhubaneswar and Puri. Clean AC vehicles. Call +91 9090913111',
+  description = 'Book Taxi/Cab, Tempo Traveller, Urbania, Bus Hire & Odisha Tour Packages from Bhubaneswar and Puri. Clean AC vehicles. Call +91 89262 72226',
   canonical = 'https://www.citycab.in/',
   ogImage = 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=1200',
   noindex = false,
@@ -23,7 +23,7 @@ export default function SEO({
     "@type": "TravelAgency",
     "name": "City Cab",
     "url": "https://www.citycab.in",
-    "telephone": "+91-9090913111",
+    "telephone": "+91-8926272226",
     "email": "citycab7777@gmail.com",
     "address": {
       "@type": "PostalAddress",

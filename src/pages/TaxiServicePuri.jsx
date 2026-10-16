@@ -5,7 +5,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "City Cab – Taxi Service Puri",
-  "telephone": "+91-9090913111",
+  "telephone": "+91-8926272226",
   "address": { "@type": "PostalAddress", "addressLocality": "Puri", "addressRegion": "Odisha", "addressCountry": "IN" },
   "url": "https://www.citycab.in/taxi-service-puri"
 };
@@ -31,7 +31,7 @@ export default function TaxiServicePuri() {
     <>
       <SEO
         title="Taxi Service Puri | Cab Booking Puri | City Cab"
-        description="Book taxi & cab service in Puri for Jagannath Temple, beach tours, Konark, Chilika and outstation. AC vehicles, 24/7. Call +91 9090913111"
+        description="Book taxi & cab service in Puri for Jagannath Temple, beach tours, Konark, Chilika and outstation. AC vehicles, 24/7. Call +91 89262 72226"
         canonical="https://www.citycab.in/taxi-service-puri"
         schema={schema}
       />
@@ -50,8 +50,8 @@ export default function TaxiServicePuri() {
             Reliable cab service in Puri for Jagannath Temple, Puri Beach, Konark Sun Temple, Chilika Lake and all outstation destinations.
           </p>
           <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
-            <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '14px 30px' }}>📞 Book Now</a>
-            <a href="https://wa.me/919090913111" className="btn btn-outline" target="_blank" rel="noopener noreferrer" style={{ padding: '14px 30px' }}>💬 WhatsApp</a>
+            <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '14px 30px' }}>📞 Book Now</a>
+            <a href="https://wa.me/918926272226" className="btn btn-outline" target="_blank" rel="noopener noreferrer" style={{ padding: '14px 30px' }}>💬 WhatsApp</a>
           </div>
         </div>
       </section>
@@ -134,7 +134,7 @@ export default function TaxiServicePuri() {
         <div className="container">
           <h2 style={{ color: '#fff', marginBottom: 14 }}>Book Your Puri Taxi Today</h2>
           <p style={{ color: 'rgba(255,255,255,0.65)', marginBottom: 28 }}>24/7 Available · Temple & Beach Routes · Fixed Rates</p>
-          <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '14px 36px', fontSize: '1.05rem' }}>📞 +91 90909 13111</a>
+          <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '14px 36px', fontSize: '1.05rem' }}>📞 +91 89262 72226</a>
         </div>
       </section>
     </>

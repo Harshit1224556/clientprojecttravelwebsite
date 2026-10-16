@@ -18,9 +18,9 @@ const HeroSection = ({ title, subtitle, bgImage }) => {
         <p>{subtitle}</p>
         
         <div className="hero-actions">
-          <a href="tel:+919090913111" className="btn btn-gold hero-btn">
+          <a href="tel:+91 89262 72226" className="btn btn-gold hero-btn">
             <Phone size={20} style={{ marginRight: '8px' }} />
-            Book Now: +91 9090913111
+            Book Now: +91 89262 72226
           </a>
         </div>
       </div>

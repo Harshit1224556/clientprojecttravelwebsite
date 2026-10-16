@@ -10,7 +10,7 @@ const schema = {
   "mainEntity": {
     "@type": "TravelAgency",
     "name": "City Cab",
-    "telephone": "+91-9090913111",
+    "telephone": "+91-8926272226",
     "email": "citycab7777@gmail.com",
     "address": { "@type": "PostalAddress", "addressLocality": "Bhubaneswar", "addressRegion": "Odisha", "addressCountry": "IN" }
   }
@@ -23,7 +23,7 @@ export default function Contact() {
   const handleSubmit = (e) => {
     e.preventDefault();
     const msg = `Hello City Cab!%0A%0AName: ${form.name}%0APhone: ${form.phone}%0AEmail: ${form.email}%0AService: ${form.service}%0ADate: ${form.date}%0AMessage: ${form.message}`;
-    window.open(`https://wa.me/919090913111?text=${msg}`, '_blank');
+    window.open(`https://wa.me/918926272226?text=${msg}`, '_blank');
     setSubmitted(true);
   };
 
@@ -31,7 +31,7 @@ export default function Contact() {
     <>
       <SEO
         title="Contact City Cab | Book Taxi & Tour – Bhubaneswar"
-        description="Contact City Cab for taxi booking, tour packages and vehicle hire in Bhubaneswar & Puri. Call +91 9090913111 or WhatsApp anytime."
+        description="Contact City Cab for taxi booking, tour packages and vehicle hire in Bhubaneswar & Puri. Call +91 89262 72226 or WhatsApp anytime."
         canonical="https://www.citycab.in/contact"
         schema={schema}
       />
@@ -57,7 +57,7 @@ export default function Contact() {
         <div className="container">
           <div className="grid-4">
             {[
-              { icon: <Phone size={22} color="var(--gold)" />, title: 'Call Us', info: '+91 90909 13111', sub: 'Available 24/7', href: 'tel:+919090913111' },
+              { icon: <Phone size={22} color="var(--gold)" />, title: 'Call Us', info: '+91 89262 72226', sub: 'Available 24/7', href: 'tel:+91 89262 72226' },
               { icon: <Mail size={22} color="var(--gold)" />, title: 'Email Us', info: 'citycab7777@gmail.com', sub: 'Reply within 2 hours', href: 'mailto:citycab7777@gmail.com' },
               { icon: <MapPin size={22} color="var(--gold)" />, title: 'Location', info: 'Bhubaneswar, Odisha', sub: '751001', href: 'https://maps.google.com/?q=Bhubaneswar+Odisha' },
               { icon: <Clock size={22} color="var(--gold)" />, title: 'Hours', info: '24/7 Service', sub: 'All days, All seasons', href: null },
@@ -157,8 +157,8 @@ export default function Contact() {
               <div style={{ marginTop: 24, background: 'var(--navy)', borderRadius: 'var(--radius)', padding: '24px', color: '#fff' }}>
                 <h3 style={{ color: 'var(--gold)', marginBottom: 14, fontSize: '1.1rem' }}>Quick Contact</h3>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
-                  <a href="tel:+919090913111" style={{ color: '#fff', textDecoration: 'none', fontSize: '1.1rem', fontWeight: 600 }}>📞 +91 90909 13111</a>
-                  <a href="https://wa.me/919090913111" target="_blank" rel="noopener noreferrer" style={{ color: '#25D366', textDecoration: 'none', fontWeight: 600 }}>💬 WhatsApp Chat</a>
+                  <a href="tel:+91 89262 72226" style={{ color: '#fff', textDecoration: 'none', fontSize: '1.1rem', fontWeight: 600 }}>📞 +91 89262 72226</a>
+                  <a href="https://wa.me/918926272226" target="_blank" rel="noopener noreferrer" style={{ color: '#25D366', textDecoration: 'none', fontWeight: 600 }}>💬 WhatsApp Chat</a>
                   <a href="mailto:citycab7777@gmail.com" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>✉️ citycab7777@gmail.com</a>
                 </div>
               </div>

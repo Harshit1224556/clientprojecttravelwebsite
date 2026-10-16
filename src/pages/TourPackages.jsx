@@ -5,7 +5,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "TouristTrip",
   "name": "Odisha Tour Packages – City Cab",
-  "provider": { "@type": "TravelAgency", "name": "City Cab", "telephone": "+91-9090913111" },
+  "provider": { "@type": "TravelAgency", "name": "City Cab", "telephone": "+91-8926272226" },
   "url": "https://www.citycab.in/odisha-tour-packages"
 };
 
@@ -93,7 +93,7 @@ export default function TourPackages() {
     <>
       <SEO
         title="Odisha Tour Packages | Puri Konark Chilika Tours | City Cab"
-        description="Book Odisha tour packages covering Puri Jagannath Temple, Konark Sun Temple, Chilika Lake, Bhubaneswar & tribal tours. Starting ₹1,800. Call +91 9090913111"
+        description="Book Odisha tour packages covering Puri Jagannath Temple, Konark Sun Temple, Chilika Lake, Bhubaneswar & tribal tours. Starting ₹1,800. Call +91 89262 72226"
         canonical="https://www.citycab.in/odisha-tour-packages"
         schema={schema}
       />
@@ -113,8 +113,8 @@ export default function TourPackages() {
             Explore Odisha's temples, beaches, wildlife and tribal culture with our curated 1-day to 5-day tour packages.
           </p>
           <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
-            <a href="tel:+919090913111" className="btn btn-primary">📞 Customise Tour</a>
-            <a href="https://wa.me/919090913111" className="btn btn-outline" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
+            <a href="tel:+91 89262 72226" className="btn btn-primary">📞 Customise Tour</a>
+            <a href="https://wa.me/918926272226" className="btn btn-outline" target="_blank" rel="noopener noreferrer">💬 WhatsApp</a>
           </div>
         </div>
       </section>
@@ -157,7 +157,7 @@ export default function TourPackages() {
                       <div style={{ fontSize: '0.75rem', color: 'var(--gray)' }}>Starting from</div>
                       <div style={{ fontFamily: 'var(--font-heading)', fontSize: '1.4rem', fontWeight: 700, color: 'var(--navy)' }}>{p.price}</div>
                     </div>
-                    <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem' }}>Book Now</a>
+                    <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem' }}>Book Now</a>
                   </div>
                 </div>
               </article>
@@ -174,8 +174,8 @@ export default function TourPackages() {
             Tell us your dates, group size and interests — we'll design the perfect Odisha itinerary for you!
           </p>
           <div style={{ display: 'flex', gap: 14, justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '14px 36px', fontSize: '1.05rem' }}>📞 Call +91 90909 13111</a>
-            <a href="https://wa.me/919090913111" className="btn btn-outline" target="_blank" rel="noopener noreferrer" style={{ padding: '14px 36px', fontSize: '1.05rem' }}>💬 WhatsApp Us</a>
+            <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '14px 36px', fontSize: '1.05rem' }}>📞 Call +91 89262 72226</a>
+            <a href="https://wa.me/918926272226" className="btn btn-outline" target="_blank" rel="noopener noreferrer" style={{ padding: '14px 36px', fontSize: '1.05rem' }}>💬 WhatsApp Us</a>
           </div>
         </div>
       </section>

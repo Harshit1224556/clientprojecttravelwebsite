@@ -5,7 +5,7 @@ const schema = {
   "@context": "https://schema.org",
   "@type": "LocalBusiness",
   "name": "City Cab – Taxi Service Bhubaneswar",
-  "telephone": "+91-9090913111",
+  "telephone": "+91-8926272226",
   "address": { "@type": "PostalAddress", "addressLocality": "Bhubaneswar", "addressRegion": "Odisha", "addressCountry": "IN" },
   "priceRange": "₹₹",
   "url": "https://www.citycab.in/taxi-service-bhubaneswar"
@@ -42,7 +42,7 @@ export default function TaxiServiceBhubaneswar() {
     <>
       <SEO
         title="Taxi Service Bhubaneswar | Cab Booking | City Cab"
-        description="Book reliable taxi & cab service in Bhubaneswar. Airport pickup, local hire, outstation trips. AC vehicles, 24/7 service. Call +91 9090913111"
+        description="Book reliable taxi & cab service in Bhubaneswar. Airport pickup, local hire, outstation trips. AC vehicles, 24/7 service. Call +91 89262 72226"
         canonical="https://www.citycab.in/taxi-service-bhubaneswar"
         schema={schema} faqSchema={faqSchema}
       />
@@ -63,8 +63,8 @@ export default function TaxiServiceBhubaneswar() {
             AC Sedan & SUV cabs for airport transfers, temple visits, outstation tours and local sightseeing across Bhubaneswar.
           </p>
           <div style={{ display: 'flex', gap: 14, flexWrap: 'wrap' }}>
-            <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '14px 30px' }}>📞 Book Now</a>
-            <a href="https://wa.me/919090913111" className="btn btn-outline" target="_blank" rel="noopener noreferrer" style={{ padding: '14px 30px' }}>💬 WhatsApp</a>
+            <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '14px 30px' }}>📞 Book Now</a>
+            <a href="https://wa.me/918926272226" className="btn btn-outline" target="_blank" rel="noopener noreferrer" style={{ padding: '14px 30px' }}>💬 WhatsApp</a>
           </div>
         </div>
       </section>
@@ -140,7 +140,7 @@ export default function TaxiServiceBhubaneswar() {
         <div className="container">
           <h2 style={{ color: '#fff', marginBottom: 14 }}>Book Your Bhubaneswar Taxi Now</h2>
           <p style={{ color: 'rgba(255,255,255,0.65)', marginBottom: 28 }}>Available 24/7 · Fixed Rates · Instant Confirmation</p>
-          <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '14px 36px', fontSize: '1.05rem' }}>📞 +91 90909 13111</a>
+          <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '14px 36px', fontSize: '1.05rem' }}>📞 +91 89262 72226</a>
         </div>
       </section>
     </>

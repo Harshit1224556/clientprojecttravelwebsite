@@ -23,7 +23,7 @@ const homeSchema = {
   "@type": "TravelAgency",
   "name": "City Cab",
   "url": "https://www.citycab.in",
-  "telephone": "+91-9090913111",
+  "telephone": "+91-8926272226",
   "email": "citycab7777@gmail.com",
   "description": "Premium Taxi, Tempo Traveller, Urbania & Bus Hire in Bhubaneswar and Puri. Odisha Tour Packages.",
   "address": {
@@ -40,7 +40,7 @@ const homeFaq = {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    { "@type": "Question", "name": "How do I book a taxi in Bhubaneswar?", "acceptedAnswer": { "@type": "Answer", "text": "You can book a taxi by calling +91 9090913111 or via WhatsApp. We are available 24/7." } },
+    { "@type": "Question", "name": "How do I book a taxi in Bhubaneswar?", "acceptedAnswer": { "@type": "Answer", "text": "You can book a taxi by calling +91 89262 72226 or via WhatsApp. We are available 24/7." } },
     { "@type": "Question", "name": "What vehicles are available for hire?", "acceptedAnswer": { "@type": "Answer", "text": "We offer Sedan, SUV, Tempo Traveller (12–16 seater), Urbania (17–26 seater), and Bus (30–52 seater) for hire." } },
     { "@type": "Question", "name": "Do you provide outstation taxi services?", "acceptedAnswer": { "@type": "Answer", "text": "Yes, we provide outstation taxi from Bhubaneswar and Puri to all major destinations across Odisha including Konark, Chilika, Puri and tribal areas." } },
   ]
@@ -87,7 +87,7 @@ const testimonials = [
 ];
 
 const faqs = [
-  { q: 'How do I book a taxi in Bhubaneswar?', a: 'Simply call or WhatsApp us at +91 9090913111. We confirm your booking instantly and are available 24/7.' },
+  { q: 'How do I book a taxi in Bhubaneswar?', a: 'Simply call or WhatsApp us at +91 89262 72226. We confirm your booking instantly and are available 24/7.' },
   { q: 'What vehicles are available?', a: 'Sedan, SUV, Tempo Traveller (12–16 seat), Urbania (17–26 seat), and Bus (30–52 seat).' },
   { q: 'Do you cover outstation routes?', a: 'Yes — all major Odisha destinations including Puri, Konark, Chilika Lake, Sambalpur, and tribal areas.' },
   { q: 'Is pricing fixed or metered?', a: 'We offer fixed transparent pricing for all routes. No hidden charges.' },
@@ -100,7 +100,7 @@ export default function Home() {
     <>
       <SEO
         title="City Cab | Taxi, Tempo Traveller, Bus Hire – Bhubaneswar & Puri | Odisha Tours"
-        description="Book Taxi/Cab, Tempo Traveller, Urbania, Bus Hire & Odisha Tour Packages from Bhubaneswar and Puri. Clean AC vehicles, 24/7 service. Call +91 9090913111"
+        description="Book Taxi/Cab, Tempo Traveller, Urbania, Bus Hire & Odisha Tour Packages from Bhubaneswar and Puri. Clean AC vehicles, 24/7 service. Call +91 89262 72226"
         canonical="https://www.citycab.in/"
         schema={homeSchema}
         faqSchema={homeFaq}
@@ -131,11 +131,11 @@ export default function Home() {
           </div>
 
           <div className="hero__row">
-            <a href="tel:+919090913111" className="hero__cta">
+            <a href="tel:+91 89262 72226" className="hero__cta">
               <span className="hero__icon">📞</span>
-              Call Now – +91 90909 13111
+              Call Now – +91 89262 72226
             </a>
-            <a href="https://wa.me/919090913111" className="hero__cta hero__cta--alt" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/918926272226" className="hero__cta hero__cta--alt" target="_blank" rel="noopener noreferrer">
               <span className="hero__icon">💬</span>
               WhatsApp Us
             </a>
@@ -243,7 +243,7 @@ export default function Home() {
                   <p style={{ color: 'rgba(255,255,255,0.55)', fontSize: '0.85rem', marginBottom: 12 }}>{v.cap}</p>
                   <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
                     <span style={{ color: 'var(--gold)', fontWeight: 700, fontSize: '1.1rem' }}>{v.price}</span>
-                    <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '8px 16px', fontSize: '0.85rem' }}>Book</a>
+                    <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '8px 16px', fontSize: '0.85rem' }}>Book</a>
                   </div>
                 </div>
               </div>
@@ -275,7 +275,7 @@ export default function Home() {
                       <div style={{ fontSize: '0.8rem', color: 'var(--gray)' }}>Starting from</div>
                       <div style={{ fontSize: '1.3rem', fontWeight: 700, color: 'var(--navy)', fontFamily: 'var(--font-heading)' }}>{t.price}</div>
                     </div>
-                    <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem' }}>Book →</a>
+                    <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '10px 20px', fontSize: '0.9rem' }}>Book →</a>
                   </div>
                 </div>
               </article>
@@ -343,10 +343,10 @@ export default function Home() {
             24/7 available | Clean AC vehicles | Professional drivers | Best prices
           </p>
           <div style={{ display: 'flex', gap: 16, justifyContent: 'center', flexWrap: 'wrap' }}>
-            <a href="tel:+919090913111" className="btn btn-primary" style={{ padding: '15px 36px', fontSize: '1.05rem' }}>
-              📞 +91 90909 13111
+            <a href="tel:+91 89262 72226" className="btn btn-primary" style={{ padding: '15px 36px', fontSize: '1.05rem' }}>
+              📞 +91 89262 72226
             </a>
-            <a href="https://wa.me/919090913111" className="btn btn-outline" target="_blank" rel="noopener noreferrer" style={{ padding: '15px 36px', fontSize: '1.05rem' }}>
+            <a href="https://wa.me/918926272226" className="btn btn-outline" target="_blank" rel="noopener noreferrer" style={{ padding: '15px 36px', fontSize: '1.05rem' }}>
               💬 WhatsApp Book
             </a>
           </div>
