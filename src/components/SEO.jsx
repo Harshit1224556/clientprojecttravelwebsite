@@ -24,13 +24,12 @@ export default function SEO({
     "name": "City Cab",
     "url": "https://www.citycab.in",
     "telephone": "+91-8926272226",
-    "email": "citycab7777@gmail.com",
+    "email": "service.citycab@gmail.com",
     "address": {
       "@type": "PostalAddress",
-      "streetAddress": "Bhubaneswar",
+      "streetAddress": "Plot No-506, Puri Bypass Road, Near DM Public School",
       "addressLocality": "Bhubaneswar",
       "addressRegion": "Odisha",
-      "postalCode": "751001",
       "addressCountry": "IN"
     },
     "priceRange": "₹₹",

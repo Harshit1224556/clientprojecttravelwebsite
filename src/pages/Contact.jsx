@@ -11,8 +11,14 @@ const schema = {
     "@type": "TravelAgency",
     "name": "City Cab",
     "telephone": "+91-8926272226",
-    "email": "citycab7777@gmail.com",
-    "address": { "@type": "PostalAddress", "addressLocality": "Bhubaneswar", "addressRegion": "Odisha", "addressCountry": "IN" }
+    "email": "service.citycab@gmail.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Plot No-506, Puri Bypass Road, Near DM Public School",
+      "addressLocality": "Bhubaneswar",
+      "addressRegion": "Odisha",
+      "addressCountry": "IN"
+    }
   }
 };
 
@@ -58,8 +64,8 @@ export default function Contact() {
           <div className="grid-4">
             {[
               { icon: <Phone size={22} color="var(--gold)" />, title: 'Call Us', info: '+91 89262 72226', sub: 'Available 24/7', href: 'tel:+91 89262 72226' },
-              { icon: <Mail size={22} color="var(--gold)" />, title: 'Email Us', info: 'citycab7777@gmail.com', sub: 'Reply within 2 hours', href: 'mailto:citycab7777@gmail.com' },
-              { icon: <MapPin size={22} color="var(--gold)" />, title: 'Location', info: 'Bhubaneswar, Odisha', sub: '751001', href: 'https://maps.google.com/?q=Bhubaneswar+Odisha' },
+              { icon: <Mail size={22} color="var(--gold)" />, title: 'Email Us', info: 'service.citycab@gmail.com', sub: 'Reply within 2 hours', href: 'mailto:service.citycab@gmail.com' },
+              { icon: <MapPin size={22} color="var(--gold)" />, title: 'Location', info: 'Plot No-506, Puri Bypass Road', sub: 'Near DM Public School, Bhubaneswar, Odisha', href: 'https://maps.google.com/?q=Plot+No-506+Puri+Bypass+Road+Near+DM+Public+School+Bhubaneswar' },
               { icon: <Clock size={22} color="var(--gold)" />, title: 'Hours', info: '24/7 Service', sub: 'All days, All seasons', href: null },
             ].map(c => (
               <div key={c.title} style={{ background: '#fff', borderRadius: 'var(--radius)', padding: '28px 22px', boxShadow: 'var(--shadow)', textAlign: 'center' }}>
@@ -158,6 +164,7 @@ export default function Contact() {
                 <h3 style={{ color: 'var(--gold)', marginBottom: 14, fontSize: '1.1rem' }}>Quick Contact</h3>
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
                   <a href="tel:+91 89262 72226" style={{ color: '#fff', textDecoration: 'none', fontSize: '1.1rem', fontWeight: 600 }}>📞 +91 89262 72226</a>
+                  <a href="tel:+91 77351 72226" style={{ color: '#fff', textDecoration: 'none', fontSize: '1.1rem', fontWeight: 600 }}>📞 +91 77351 72226</a>
                   <a href="https://wa.me/918926272226" target="_blank" rel="noopener noreferrer" style={{ color: '#25D366', textDecoration: 'none', fontWeight: 600 }}>💬 WhatsApp Chat</a>
                   <a href="mailto:service.citycab@gmail.com" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>✉️ service.citycab@gmail.com</a>
                 </div>

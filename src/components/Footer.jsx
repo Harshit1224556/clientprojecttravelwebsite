@@ -16,8 +16,9 @@ export default function Footer() {
               </Link>
               <p>Premium Taxi, Tempo Traveller, Urbania &amp; Bus Hire in Bhubaneswar &amp; Puri. Clean AC vehicles, 24/7 service across Odisha.</p>
               <div className="footer__social">
-                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
-                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">in</a>
+                <a href="https://www.facebook.com/share/1DipXMS2yv/" target="_blank" rel="noopener noreferrer" aria-label="Facebook">f</a>
+                <a href="https://www.instagram.com/citycabodisha?dlrf=Y2xpaHcyamJkZG52" target="_blank" rel="noopener noreferrer" aria-label="Instagram">in</a>
+                <a href="https://share.google/RTw8zpLzWza1YMamU" target="_blank" rel="noopener noreferrer" aria-label="Google Profile">G</a>
                 <a href="https://wa.me/918926272226" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">W</a>
               </div>
             </div>
@@ -53,11 +54,25 @@ export default function Footer() {
               <ul className="footer__contact">
                 <li>
                   <MapPin size={16} />
-                  <span>Bhubaneswar, Odisha – 751001</span>
+                  <div>
+                    <strong style={{ display: 'block', color: 'var(--white)' }}>Official Office:</strong>
+                    <span>Plot No-506, Puri Bypass Road, Near DM Public School, Bhubaneswar, Odisha</span>
+                  </div>
+                </li>
+                <li>
+                  <MapPin size={16} />
+                  <div>
+                    <strong style={{ display: 'block', color: 'var(--white)' }}>Corporate Office:</strong>
+                    <span>Plot No-506, Puri Bypass Road, Near DM Public School, Bhubaneswar, Odisha</span>
+                  </div>
                 </li>
                 <li>
                   <Phone size={16} />
                   <a href="tel:+91 89262 72226">+91 89262 72226</a>
+                </li>
+                <li>
+                  <Phone size={16} />
+                  <a href="tel:+91 77351 72226">+91 77351 72226</a>
                 </li>
                 <li>
                   <Mail size={16} />

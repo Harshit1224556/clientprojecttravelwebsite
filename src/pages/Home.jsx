@@ -24,13 +24,13 @@ const homeSchema = {
   "name": "City Cab",
   "url": "https://www.citycab.in",
   "telephone": "+91-8926272226",
-  "email": "citycab7777@gmail.com",
+  "email": "service.citycab@gmail.com",
   "description": "Premium Taxi, Tempo Traveller, Urbania & Bus Hire in Bhubaneswar and Puri. Odisha Tour Packages.",
   "address": {
     "@type": "PostalAddress",
+    "streetAddress": "Plot No-506, Puri Bypass Road, Near DM Public School",
     "addressLocality": "Bhubaneswar",
     "addressRegion": "Odisha",
-    "postalCode": "751001",
     "addressCountry": "IN"
   },
   "aggregateRating": { "@type": "AggregateRating", "ratingValue": "4.9", "reviewCount": "854" }
@@ -81,9 +81,9 @@ const tours = [
 ];
 
 const testimonials = [
-  { name: 'Ravi Kumar', loc: 'Delhi', stars: 5, text: 'Excellent service provider! Driver was very well behaved and the car was spotlessly clean. Highly recommend City Cab for Puri trip.' },
-  { name: 'Harsh Sharma', loc: 'Kolkata', stars: 5, text: 'Booked a Tempo Traveller for our family pilgrimage. The vehicle was well-maintained and driver knew all the routes perfectly.' },
-  { name: 'Ayush Yadav', loc: 'Bhubaneswar', stars: 5, text: 'Used their taxi service multiple times for airport pickups. Always on time and very affordable pricing.' },
+  { name: 'Sourav Ganguly', loc: 'Kolkata', stars: 5, text: 'Booked an Innova for our family trip from Bhubaneswar to Puri and Konark. The cab was spotless and the driver was extremely polite and punctual.' },
+  { name: 'Sneha Roy', loc: 'Bengaluru', stars: 5, text: 'Hired a Tempo Traveller for 12 people to visit Chilika and Puri. Great experience, smooth drive, transparent pricing, and 24/7 support throughout.' },
+  { name: 'Manish Verma', loc: 'Delhi NCR', stars: 5, text: 'Best taxi service in Odisha! Timely airport pickup in Bhubaneswar and wonderful 3-day sightseeing. Highly recommended for families.' },
 ];
 
 const faqs = [
@@ -311,6 +311,18 @@ export default function Home() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="text-center mt-32">
+            <a
+              href="https://www.google.com/search?kgmid=/g/11x5drdh0_&hl=en-IN&q=CITY+CAB&shem=epsd1,ltae,rimspwouoe&shndl=30&source=sh/x/loc/osrp/m1/2&kgs=c0142ff039a70b7c&utm_source=epsd1,ltae,rimspwouoe,sh/x/loc/osrp/m1/2"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn btn-navy"
+              style={{ display: 'inline-flex', alignItems: 'center', gap: 10, padding: '12px 28px', fontSize: '0.95rem' }}
+            >
+              <img src="https://www.google.com/favicon.ico" alt="Google" style={{ width: 18, height: 18 }} />
+              See All Reviews on Google
+            </a>
           </div>
         </div>
       </section>
