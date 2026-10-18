@@ -64,10 +64,10 @@ export default function Payment() {
           {/* UPI Details */}
           <div style={{ marginTop: 48, background: 'var(--navy)', borderRadius: 'var(--radius-lg)', padding: '36px', textAlign: 'center', color: '#fff' }}>
             <h3 style={{ color: 'var(--gold)', marginBottom: 8, fontFamily: 'var(--font-heading)', fontSize: '1.4rem' }}>Pay via UPI</h3>
-            <div style={{ width: 140, height: 140, background: '#fff', borderRadius: 12, margin: '20px auto', display: 'flex', alignItems: 'center', justifyContent: 'center', fontSize: '0.85rem', color: 'var(--gray)' }}>
-              QR Code<br />Available on<br />Request
+            <div style={{ width: 180, background: '#fff', borderRadius: 12, margin: '20px auto', padding: 8, overflow: 'hidden' }}>
+              <img src="/city-cab-qr.jpg" alt="City Cab PhonePe UPI QR" style={{ width: '100%', height: 'auto', display: 'block', borderRadius: 8 }} />
             </div>
-            <div style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--gold)', marginBottom: 6 }}>UPI ID: citycab@upi</div>
+            <div style={{ fontSize: '1.1rem', fontWeight: 700, color: 'var(--gold)', marginBottom: 6 }}>UPI ID: Q984822721@ybl</div>
             <p style={{ color: 'rgba(255,255,255,0.6)', fontSize: '0.88rem' }}>Send payment and share screenshot on WhatsApp for confirmation</p>
           </div>
 
@@ -76,10 +76,10 @@ export default function Payment() {
             <h3 style={{ color: 'var(--navy)', marginBottom: 16 }}>Bank Transfer Details</h3>
             <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 12 }}>
               {[
-                ['Account Name', 'City Cab'],
-                ['Account No.', 'XXXX XXXX XXXX'],
-                ['IFSC Code', 'SBIN0000XXX'],
+                ['Account Holder', 'Dolagobinda Behera'],
+                ['Account No.', '40293610739'],
                 ['Bank', 'State Bank of India'],
+                ['IFSC Code', 'SBIN0010929'],
               ].map(([l, v]) => (
                 <div key={l} style={{ background: '#fff', padding: '14px 18px', borderRadius: 8, border: '1px solid #E5E7EB' }}>
                   <div style={{ fontSize: '0.78rem', color: 'var(--gray)', marginBottom: 2 }}>{l}</div>
