@@ -159,7 +159,7 @@ export default function Contact() {
                 <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
                   <a href="tel:+91 89262 72226" style={{ color: '#fff', textDecoration: 'none', fontSize: '1.1rem', fontWeight: 600 }}>📞 +91 89262 72226</a>
                   <a href="https://wa.me/918926272226" target="_blank" rel="noopener noreferrer" style={{ color: '#25D366', textDecoration: 'none', fontWeight: 600 }}>💬 WhatsApp Chat</a>
-                  <a href="mailto:citycab7777@gmail.com" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>✉️ citycab7777@gmail.com</a>
+                  <a href="mailto:service.citycab@gmail.com" style={{ color: 'rgba(255,255,255,0.7)', textDecoration: 'none', fontSize: '0.9rem' }}>✉️ service.citycab@gmail.com</a>
                 </div>
               </div>
             </div>
