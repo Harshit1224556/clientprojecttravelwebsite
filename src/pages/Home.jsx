@@ -81,9 +81,9 @@ const tours = [
 ];
 
 const testimonials = [
-  { name: 'Rajesh Kumar', loc: 'Delhi', stars: 5, text: 'Excellent service! Driver was very professional and the car was spotlessly clean. Highly recommend City Cab for Puri trip.' },
-  { name: 'Priya Sharma', loc: 'Kolkata', stars: 5, text: 'Booked a Tempo Traveller for our family pilgrimage. The vehicle was well-maintained and driver knew all the routes perfectly.' },
-  { name: 'Arun Mishra', loc: 'Bhubaneswar', stars: 5, text: 'Used their taxi service multiple times for airport pickups. Always on time and very affordable pricing.' },
+  { name: 'Ravi Kumar', loc: 'Delhi', stars: 5, text: 'Excellent service provider! Driver was very well behaved and the car was spotlessly clean. Highly recommend City Cab for Puri trip.' },
+  { name: 'Harsh Sharma', loc: 'Kolkata', stars: 5, text: 'Booked a Tempo Traveller for our family pilgrimage. The vehicle was well-maintained and driver knew all the routes perfectly.' },
+  { name: 'Ayush Yadav', loc: 'Bhubaneswar', stars: 5, text: 'Used their taxi service multiple times for airport pickups. Always on time and very affordable pricing.' },
 ];
 
 const faqs = [
